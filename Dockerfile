@@ -1,3 +1,3 @@
 FROM ubuntu:xenial
 
-RUN apt update && apt install -f apt-transport-https wget ca-certificates
+RUN apt update && apt install -y apt-transport-https wget ca-certificates
